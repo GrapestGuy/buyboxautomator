@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Property Search</title>
+    <link rel="stylesheet" href="./static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="column">
+            <h2>Input Property Details</h2>
+            <form method="POST">
+                <textarea name="user_input" rows="20" placeholder="Paste your property details here"></textarea>
+                <button type="submit">Generate Zillow URL</button>
+            </form>
+        </div>
+        <div class="column">
+            <h2>Instructions</h2>
+            <p>The syntax (what you input) should look like this:</p><br><br>
+            <p>
+                "ALABAMA <br>
+                Birmingham<br>
+                City:<br>
+                birmingham<br>
+                Property Type:<br>
+                single family<br>
+                Bed Min:<br>
+                2<br>
+                Bath Min:<br>
+                1<br>
+                Year Built Min:<br>
+                1969<br>
+                Sqft Min:<br>
+                900 sqft<br>
+                ARV Percent Max:<br>
+                12.33%<br>
+                Max Rehab Cost:<br>
+                $13065.47<br>
+                Max Price:<br>
+                $77952.38"<br><br>
+            </p>
+            <p>Without the "" of course</p>
+            <p>Make sure the all the basic details are included (state, city, max price, min bathrooms, min bedrooms, sqft min)</p>
+        </div>
+    </div>
+</body>
+</html>
